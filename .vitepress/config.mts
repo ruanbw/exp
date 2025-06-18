@@ -5,6 +5,7 @@ export default defineConfig({
   title: "exp",
   description: "A VitePress Site",
   srcDir: 'src',
+  base: '/exp/',
   themeConfig: {    
     search: {
       provider: 'local'
