@@ -4,11 +4,25 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "exp",
   description: "A VitePress Site",
+  srcDir: 'src',
+  
   themeConfig: {
+    
+    search: {
+      provider: 'local'
+    },
     sidebar: [
       {
         text: 'Guide',
-        link: '/pages/guide',
+        link: '/guide',
+      },
+      {
+        text: "移动端",
+        items: [
+          {
+            text: "自适应",
+            link: "/mobile-terminal/self-adaption"
+          }]
       }
     ],
 

@@ -9,4 +9,4 @@ hero:
   actions:
     - theme: brand
       text: Guide
-      link: /pages/guide
+      link: /guide
