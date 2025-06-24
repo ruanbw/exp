@@ -22,6 +22,14 @@ export default defineConfig({
             text: "自适应",
             link: "/mobile-terminal/self-adaption"
           }]
+      },
+            {
+        text: "样式",
+        items: [
+          {
+            text: "bem",
+            link: "/style/bem"
+          }]
       }
     ],
 
