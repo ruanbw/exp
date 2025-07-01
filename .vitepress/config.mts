@@ -6,9 +6,13 @@ export default defineConfig({
   description: "A VitePress Site",
   srcDir: 'src',
   base: '/exp/',
-  themeConfig: {    
+  themeConfig: {
+    
     search: {
       provider: 'local'
+    },
+    outline: {
+      level: [3,4]
     },
     sidebar: [
       {
@@ -23,12 +27,28 @@ export default defineConfig({
             link: "/mobile-terminal/self-adaption"
           }]
       },
-            {
+      {
         text: "样式",
         items: [
           {
             text: "bem",
             link: "/style/bem"
+          }]
+      },
+      {
+        text: "网络协议",
+        items: [
+          {
+            text: "TCP与UDP的区别",
+            link: "/network-protocol/tcp-and-udp"
+          }]
+      },
+      {
+        text: "浏览器",
+        items: [
+          {
+            text: "输入网址到页面渲染完毕的过程",
+            link: "/browser/website-address-to-page"
           }]
       }
     ],
