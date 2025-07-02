@@ -50,6 +50,14 @@ export default defineConfig({
             text: "输入网址到页面渲染完毕的过程",
             link: "/browser/website-address-to-page"
           }]
+      },
+      {
+        text: "打包优化",
+        items: [
+          {
+            text: "打包优化",
+            link: "/build-optimization/build-optimization"
+          }]
       }
     ],
 
